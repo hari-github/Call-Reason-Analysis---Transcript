@@ -9,8 +9,8 @@ Tool Link - https://calltrans-tbkvf9nlocczwcftpyurud.streamlit.app/
 -   🧠 Topic clustering and semantic correction to group similar topics.
 -   📊 Interactive visualizations using Plotly to explore topic and sentiment distributions.
 -   📄 Summarized call insights with transcript references.
--   🛠️ Tech Stack
 
+## 🛠️ Tech Stack
 - Frontend & Backend: Streamlit
 - Visualization: Plotly
 - Language Model: Azure OpenAI (GPT-based models)
