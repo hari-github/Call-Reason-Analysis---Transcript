@@ -427,5 +427,6 @@ st.write("""
 1. Upload an Excel file and enter the api key
 2. Click Analyse. It will take few mins or more based on the number of transcripts
 3. It will share the topics discussed in the call
-4. Click 'Generate Secondary Chart' to see the breakdown
+4. Click 'Generate Secondary Chart' to see the breakdown of topics
+5. Actual transcripts and summary can be seen in the dropdown box below the chart
 """)
