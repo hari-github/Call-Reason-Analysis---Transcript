@@ -3,6 +3,8 @@ This is a Streamlit-based web application that analyzes call center transcripts 
 
 Tool Link - https://calltrans-tbkvf9nlocczwcftpyurud.streamlit.app/
 
+Tool Demo Link - https://youtu.be/nYpujje98R4
+
 ## 🚀 Features
 -   ✅ Upload and process Excel files containing call transcripts.
 -   🔍 Automatic topic extraction and sentiment analysis for each call using LLM.
