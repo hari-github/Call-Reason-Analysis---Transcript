@@ -228,24 +228,21 @@ def clean_process(dat, client) :
 
 
     
+value = st.text_input("Enter the number of topics:")
 
-if uploaded_file is not None and st.button("Analyse"):
+if uploaded_file is not None and value is not None and st.button("Analyse"):
+    
+    st.write(f"You entered: {value}")
     # Read data
     dat = process_data(uploaded_file)
     
     if dat is not None:
-        st.write("### Data Preview")
-        st.dataframe(dat.head())
+        # st.write("### Data Preview")
+        # st.dataframe(dat.head())
         
         # Get columns for selection
         columns = dat.columns.tolist()
         
-        
-        
-        
-        # value = st.number_input("Enter the number of topics:")
-
-        # st.write(f"You entered: {value}")
         
         df = st.session_state.get("df", None)
         
@@ -253,15 +250,15 @@ if uploaded_file is not None and st.button("Analyse"):
         
         dat['res'], dat['topic_val'] = topic_extract(dat,client)
         
-        # if value :
-        #     n = value
-        #     df_n = cluster_process(dat,n)
-        # else :
-        #     n = 15
-        #     df_n = cluster_process(dat,n)
+        if value :
+            n = value
+            df_n = cluster_process(dat,n, client)
+        else :
+            n = 15
+            df_n = cluster_process(dat,n, client)
         
-        n = 15
-        df_n = cluster_process(dat,n, client)
+        # n = 15
+        # df_n = cluster_process(dat,n, client)
        
             
         df = clean_process(df_n, client)
