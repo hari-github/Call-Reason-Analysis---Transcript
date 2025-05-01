@@ -4,12 +4,12 @@ This is a Streamlit-based web application that analyzes call center transcripts 
 Tool Link - https://calltrans-tbkvf9nlocczwcftpyurud.streamlit.app/
 
 ## 🚀 Features
-  ✅ Upload and process Excel files containing call transcripts.
-  🔍 Automatic topic extraction and sentiment analysis for each call using LLM.
-  🧠 Topic clustering and semantic correction to group similar topics.
-  📊 Interactive visualizations using Plotly to explore topic and sentiment distributions.
-  📄 Summarized call insights with transcript references.
-  🛠️ Tech Stack
+-   ✅ Upload and process Excel files containing call transcripts.
+-   🔍 Automatic topic extraction and sentiment analysis for each call using LLM.
+-   🧠 Topic clustering and semantic correction to group similar topics.
+-   📊 Interactive visualizations using Plotly to explore topic and sentiment distributions.
+-   📄 Summarized call insights with transcript references.
+-   🛠️ Tech Stack
 
 - Frontend & Backend: Streamlit
 - Visualization: Plotly
