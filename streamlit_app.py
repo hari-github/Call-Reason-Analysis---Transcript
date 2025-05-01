@@ -249,22 +249,22 @@ if uploaded_file is not None and st.button("Analyse"):
         
         df = st.session_state.get("df", None)
         
-        # client = client_chat(api_key)
+        client = client_chat(api_key)
         
-        # dat['res'], dat['topic_val'] = topic_extract(dat,client)
+        dat['res'], dat['topic_val'] = topic_extract(dat,client)
         
-        # # if value :
-        # #     n = value
-        # #     df_n = cluster_process(dat,n)
-        # # else :
-        # #     n = 15
-        # #     df_n = cluster_process(dat,n)
+        # if value :
+        #     n = value
+        #     df_n = cluster_process(dat,n)
+        # else :
+        #     n = 15
+        #     df_n = cluster_process(dat,n)
         
-        # n = 15
-        # df_n = cluster_process(dat,n, client)
+        n = 15
+        df_n = cluster_process(dat,n, client)
        
             
-        # df = clean_process(df_n, client)
+        df = clean_process(df_n, client)
         
         st.session_state.df = df
         st.success("File processed successfully.")
