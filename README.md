@@ -11,8 +11,8 @@ Tool Link - https://calltrans-tbkvf9nlocczwcftpyurud.streamlit.app/
 📄 Summarized call insights with transcript references.
 🛠️ Tech Stack
 
-Frontend & Backend: Streamlit
-Visualization: Plotly
-Language Model: Azure OpenAI (GPT-based models)
-Data Handling: Pandas
-File Format: Excel (.xlsx or .xls)
+- Frontend & Backend: Streamlit
+- Visualization: Plotly
+- Language Model: Azure OpenAI (GPT-based models)
+- Data Handling: Pandas
+- File Format: Excel (.xlsx or .xls)
