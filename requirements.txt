@@ -3,3 +3,4 @@ pandas
 plotly
 openai
 streamlit-plotly-events
+openpyxl
